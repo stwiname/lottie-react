@@ -67,6 +67,7 @@
     "dev": "rollup -c -w",
     "build": "rollup -c",
     "prepublishOnly": "yarn build",
+    "prepare": "yarn build",
     "lint": "tsc --noEmit && eslint . --ext .ts,.tsx,.js",
     "lint:fix": "eslint  . --ext .ts,.tsx,.js --fix",
     "storybook": "start-storybook -p 9009",
